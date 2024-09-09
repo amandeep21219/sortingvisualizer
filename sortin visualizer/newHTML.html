@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorting Visualizer</title>
+    <link href="style1.css" rel="stylesheet" />
+</head>
+
+<body>
+    <section class="head">Sorting Visualizer</section>
+    <section class="data-container"></section>
+
+    <!-- Buttons for generating array and selecting sorting method -->
+    <button class="btn1" onclick="generate()" id="Button1">
+        Generate New Array
+    </button>
+    <select id="sortMethod">
+        <option value="SelectionSort">Selection Sort</option>
+        <option value="MergeSort">Merge Sort</option>
+        <option value="QuickSort">Quick Sort</option>
+        <option value="BubbleSort">Bubble Sort</option>
+        <option value="InsertionSort">Insertion Sort</option>
+    </select>
+    <button class="btn2" onclick="sort()" id="Button2">
+        Sort
+    </button>
+
+    <script src="index1.js"></script>
+</body>
+
+</html>
